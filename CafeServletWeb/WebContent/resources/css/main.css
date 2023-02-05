@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+	padding : 3%;
+}
+	span{
+		color : green;
+	}
+#main{
+	display : flex;
+	flex-direction : row;
+}
+	#mainLeft{
+		width : 700px;
+	}
+		#menu{
+		    display: flex;
+		    justify-content: space-evenly;
+		    background-color : #9df265;
+		    width : auto;
+		    height : 45px;
+		}
+		a{
+	        text-decoration: none;
+			padding-top : 10px;
+	        color : white;
+		}
+		.product{
+			width : 650px;
+			height : 500px;
+		}
+	#mainRight{
+		width : 250px;
+	}
+		.login{
+			width : 150px;
+			height : 20px;
+		}
+		input{
+			margin : 1%;
+		}
